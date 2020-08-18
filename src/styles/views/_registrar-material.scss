@@ -1,0 +1,291 @@
+.enter{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 41px;
+	padding-top: 60px;
+}
+.registrar-form{
+		margin-bottom: 70px;
+	}
+li{
+	// padding-bottom: 28px;
+	width: fit-content;
+	margin: 0;
+	display: flex;
+	a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 18px;
+		font-family: $t-3;
+		transition: all 500ms ease;
+		transform: translateX(0px);
+		background: transparent;
+		height: 30px;
+		border-radius: 10px;
+		width: 180px;
+		img{
+			margin: 0;
+		}
+		&:hover{
+			transform: translateX(10px);
+			background: $c1;
+			color: $c6;
+		}
+	}
+}
+h1{
+	font-family: $t-3;
+	font-size: 48px;
+	margin: 0;
+}
+form{
+	display: flex;
+}
+.r-form-left{
+	margin-right: 57px;
+	width: 54.2%;
+}
+.form-group{
+	display: flex;
+	justify-content: space-between;
+	.r-form-input{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 47.05%;
+		label{
+			margin: 0;
+		}
+		input{
+			width: 100%;
+		}
+		&.precio{
+			position: relative;
+			span{
+				position: absolute;
+				bottom: 36px;
+				left: 15px;
+				font-family: $t-2;
+				color: $c7;
+				&.aviso{
+					position: relative;
+					bottom: initial;
+					left: initial;
+					font-size: 11px;
+				}
+			}
+			input{
+				padding-left: 37px;
+			}
+		}
+		&.carreras{
+			position: relative;
+			span{
+				position: absolute;
+				// bottom: 68px;
+				left: initial;
+				right: 0;
+				font-family: $t-2;
+				color: $c7;
+			}
+		}
+	}
+	.multiselect{
+		margin-top: 12px;
+		width: 100%;
+		min-height: 55px;
+		border-radius: 5px;
+		color: $c7;
+		background: $c8;
+	}
+}
+.form-full{
+	position: relative;
+	input{
+		width: 100%;
+	}
+	.r-form-input{
+		width: 100%;
+	}
+	p{
+		position: absolute;
+		right: 0;
+		color: red;
+		font-family: $t-3;
+	}
+}
+.r-form-radio{
+	margin-bottom: 41px;
+	label{
+		font-size: 24px;
+		font-family: $t-2;
+		color: $c5;
+		margin-right: 23px;
+		margin-left: 14px;
+	}
+	input{
+		width: inherit;
+	}
+}
+.r-form-input{
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	label{
+		font-size: 18px;
+		font-family: $t-3;
+		color: $c5;
+		margin: 0;
+	}
+	textarea{
+		resize: none;
+		margin-top: 12px;
+		max-height: 124px;
+		background: $c8;
+		border-radius: 5px;
+		font-size: 14px;
+		font-family: $t-2;
+		color: $c7;
+		border-style: none;
+		box-sizing: border-box;
+		padding-left: 15px;
+		padding-top: 15px;
+		width: 100%;
+	}
+	p{
+		position: absolute;
+		right: 0;
+		color: red;
+		font-family: $t-3;
+	}
+	input{
+		margin-top: 12px;
+		height: 55px;
+		background: $c8;
+		border-radius: 5px;
+		font-size: 14px;
+		font-family: $t-2;
+		color: $c7;
+		border-style: none;
+		box-sizing: border-box;
+		padding-left: 15px;
+		&.desactivado{
+			opacity: 0.5;
+		}
+	}
+}
+.registrarBtn{
+	border-style: none;
+	float: right;
+	width: 157px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $c6;
+	font-size: 15px;
+	background: $c1;
+	font-family: $t-2;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	transition: all 500ms ease;
+	&:hover{
+		background: $c4;
+		color: $c1;
+		border: 1px solid $c1;
+		transition: all 500ms ease;
+	}
+	&.desactivado{
+		opacity: 0.7;
+		&:hover{
+			background: $c1;
+			color: $c6;
+		}
+	}
+}
+.r-form-right{
+	margin-top: 58px;
+	width: 40%;
+}
+.image-container{
+	width: 100% !important;
+}
+.card {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+	img{
+		width: 488px;
+		height: 488px;
+	}
+	p{
+		left: 50%;
+    	transform: translateX(-50%);
+    	right: initial;
+    	bottom: 206px;
+	}
+  }
+  
+  .file-upload-container {
+	  width: 100%;
+	  height: 50px;
+	  overflow: hidden;
+	  background: $c4;
+	  user-select: none;
+	  transition: all 150ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	  text-align: center;
+	  color: white;
+	  line-height: 50px;
+	  font-weight: 300;
+	  font-size: 20px;
+  }
+  
+  .file-upload-container:hover {
+	  cursor: pointer;
+	  background: $c1;
+  }
+  @media (max-width:414px){
+	  form{
+		  flex-direction: column-reverse;
+	  }
+	  .r-form-left{
+		  width: 100%;
+	  }
+	  .r-form-radio{
+		  text-align: center;
+	  }
+	  .enter{
+		  flex-direction: column-reverse;
+		  align-items: center;
+		  padding-top: 130px;
+		  h1{
+			  font-size: 25px;
+			  margin-top: 20px;
+		  }
+	  }
+	  .card{
+		  width: 100%;
+		  img{
+			  width: 100%;
+			  height: 272px;
+		  }
+	  }
+	  .r-form-right{
+		  width: 70%;
+		  margin: auto;
+	  }
+	  .form-group{
+		  flex-direction: column;
+	  }
+	  .form-group .r-form-input{
+		  width: 100%;
+	  }
+  }

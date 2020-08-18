@@ -1,0 +1,541 @@
+.b1{
+    .back-enlace{
+        margin-top: 61px;
+        margin-bottom: 40px;
+        a{
+            font-size: 15px;
+            width: 145px;
+        }
+        img{
+            width: 18px;
+        }
+    }
+}
+.b1-top{
+    display: flex;
+    margin-bottom: 52px;
+}
+.b1-img {
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    min-width: 485px;
+    width: 485px;
+    height: 510px;
+    border-radius: 20px;
+    margin-left: 91px;
+    margin-right: 104px;
+    overflow: hidden;
+	img{
+        max-width: 100%;
+        height: auto;
+	}
+  }
+.b1-details{
+    span{
+        font-size: 16px;
+        font-family: $t-2;
+        color: $c7;
+        margin-bottom: 9px;
+    }
+    h1{
+        font-size: 36px;
+        font-family: $t-3;
+        color: $c5;
+        margin-bottom: 26px;   
+        margin-top: 0;  
+        width: 90%;  
+    }
+    h2{
+        font-size: 30px;
+        font-family: $t-2;
+        color: $c5;
+        margin-bottom: 47px;       
+    }
+    .Btn{
+      width: 304px;  
+      margin: 0;
+      float: none;
+    }
+}
+.b1-alquiler{
+    display: flex;
+    margin-bottom: 31px;
+    // width: 66%;
+    justify-content: flex-start;
+}
+.b1-tipo{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 89px;
+    img{
+        margin: 0;
+        margin-right: 13px;
+    }
+    &.tipoVenta{
+        align-items: center;
+    }
+}
+.b1-info{
+    position: relative;
+    h3{
+        font-size: 15px;
+        font-family: $t-3;
+        color: #676262;
+        margin-bottom: 2px;       
+    }
+    h4{
+        font-size: 15px;
+        font-family: $t-2;
+        color: #676262;
+        margin-bottom: 0px;       
+    }
+    &.condicion{
+        h4{
+            &:before{
+                position: absolute;
+                left: -26px;
+                top: 0;
+                content: '';
+                background: transparent;
+                height: 18px;
+                width: 18px;
+                border-radius: 100%;
+            }
+            &.optimo{
+                &:before{
+                    background: #59df77;
+                }
+            }
+            &.gastado{
+                &:before{
+                    background: #d2d21e;
+                }
+            }
+            &.depreciar{
+                &:before{
+                    background: #d2691e;
+                }
+            }
+        }
+    }
+}
+.b1-lugar{
+    margin-bottom: 58px;
+    ul{
+        li{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 15px;
+            font-family: $t-2;
+            color: #676262;
+            img{
+                margin: 0;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}
+.b1-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19%;
+}
+.b1-block{
+    width: 48%;
+    h2{
+        font-size: 20px;
+        font-family: $t-3;
+        color: $c5;
+        padding-bottom: 22px;
+        border-bottom: 0.5px solid #7e7e7e63; 
+        margin-bottom: 36.5px;        
+    }
+    p{
+      font-size: 14px;
+      font-family: $t-2;
+      color:#676262;
+      line-height: 1.79; 
+    }
+}
+.b1-owner{
+    width: 50%;
+    .b1-block{
+        width: 100%;
+    }
+}
+.fantasy1{
+    display: flex;
+    margin-bottom: 22px;
+    display: none;
+}
+.fantasyNum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 25px;
+    h2{
+        border-bottom: none;
+        font-size: 48px;
+        font-family: $t-2;
+        color: $c5;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+    }
+    span{
+        font-size: 13px;
+        font-family: $t-3;
+        color: $c5;
+    }
+}
+.fantasyGraph{
+    margin-left: 0;
+    li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 0;
+        .bar{
+            width: 384px;
+            height: 5px;
+            background:#e5e5e5;
+            border-radius: 0.5px;
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        h3{
+            margin-left: 26px;
+            font-family: $t-2;
+            font-size: 18px;
+            color: $c5;
+        }
+        &.great{
+            .bar{
+                span{
+                    float: left;
+                    height: 100%;
+                    background: #81fb6e;
+                    width: 80%;
+                }
+            }
+        }
+        &.meh{
+            .bar{
+                span{
+                    float: left;
+                    height: 100%;
+                    background: #fcff62;
+                    width: 30%;
+                }
+            }
+        }
+        &.bad{
+            .bar{
+                span{
+                    float: left;
+                    height: 100%;
+                    background: rgba(255, 89, 89, 0.82);
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+.b1-num{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    h3{
+      font-size: 18px;
+      font-family: $t-2;
+      color: $c5;  
+    }
+}
+.b1-star{
+    display: flex;
+    align-items: center;
+    h3{
+        font-size: 30px;
+        font-family: $t-2;
+        color: $c5;
+    }
+}
+.fantasyGraph1{
+    width: 100%;
+    height: 6px;
+    border-radius: 0.5px;
+    background: $c3;
+    display: flex;
+    display: none;
+    .great{
+        width: 75%;
+        height: 100%;
+        background-color: #59df77;
+        position: relative;
+    }
+    .meh{
+        width: 19%;
+        height: 100%;
+        background-color: #fcff62;
+        position: relative;
+    }
+    .bad{
+        width: 6%;
+        height: 100%;
+        background-color: #d2691e;
+        position: relative;
+    }
+    .great,
+    .meh,
+    .bad{
+        span{
+            position: absolute;
+            bottom: -22px;
+            font-size: 14px;
+            font-family: $t-2;
+            color: $c5;
+        }
+    }
+}
+
+.modal-mask {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: table;
+	transition: opacity 0.3s ease;
+  }
+  
+.modal-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+  
+.modal-container {
+	width: 999px;
+	height: 550px;
+	margin: 0px auto;
+	padding: 0px 30px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+    // align-items: center;
+    .Btn {
+        width: 190px;
+        height: 50px;
+    }
+}  
+
+.modalBody{
+    display: flex;
+}
+
+.modal-body{
+    padding-top: 60px;
+	// h2{
+	// 	font-family: $t-2;
+	// 	color: #676262;
+	// 	font-size: 20px;
+	// 	padding-bottom: 0px;
+	// 	padding-top: 0px;
+	// 	text-align: center;
+	// 	width: 90%;
+	// 	margin: auto;
+	// }
+}
+
+.modal-img {
+	background: #f2f2f2;
+	display: flex;
+	// flex-direction: column;
+	// align-items: center;
+	// justify-content: center;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 104px;
+    overflow: hidden;
+	img{
+        max-width: 100%;
+        height: auto;
+	}
+  }
+  
+.modal-info{
+    width: 45%;
+    .back-enlace{
+        margin-top: 0;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+    h1{
+        font-family: $t-3;
+		color: $c5;
+        font-size: 25px;
+        margin-top: 32px;
+    }
+}
+
+.modal-datos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    h2{
+        font-family: $t-2;
+		color: $c5;
+        font-size: 20px;   
+        margin: 0;
+        margin-right: 120px;     
+    }
+    h3{
+        font-family: $t-3;
+		color: #676262;
+        font-size: 15px;
+    }
+}
+.modal-tipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-desc{
+    position: relative;
+    h2{
+        font-size: 16px;
+        font-family: $t-3;
+        color: $c5;
+        margin-bottom: 18px;
+    }
+    textarea{
+		resize: none;
+		max-height: 125px;
+		background: $c8;
+		border-radius: 5px;
+		font-size: 14px;
+		font-family: $t-2;
+		color: $c7;
+		border-style: none;
+		box-sizing: border-box;
+		padding-left: 15px;
+		padding-top: 15px;
+        width: 100%;
+        outline: none;
+	}
+}
+.modal-warning{
+    font-family: $t-0;
+    margin-top: 20px;
+    position: absolute;
+    width: 50%;
+}
+.modal-footer{
+	display: flex;
+	margin-top: 27px;
+    // justify-content: space-between;
+    justify-content: flex-end;
+}
+  
+.modal-container{
+    &.calificar{
+        width: 474px;
+        height: 445px;
+        .Btn{
+            float: none;
+            &:last-child{
+                background: #ff5c5c;
+                border: none;
+                &:hover{
+                    background: $c4;
+                    color: #ff5c5c;
+                }
+            }
+        }
+        .modal-footer{
+            justify-content: space-between;
+        }
+    }
+}
+  /*
+   * The following styles are auto-applied to elements with
+   * transition="modal" when their visibility is toggled
+   * by Vue.js.
+   *
+   * You can easily play with the modal transition by editing
+   * these styles.
+   */
+  
+.modal-enter {
+	opacity: 0;
+}
+  
+.modal-leave-active {
+	opacity: 0;
+}
+  
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+@media (max-width:414px){
+    .b1-top{
+        flex-direction: column;
+    }
+    .b1-bottom{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .b1-img{
+        margin-left: 0;
+        margin: auto;
+        width: 79%;
+        min-width: initial;
+        height: 310px;
+        margin-bottom: 20px;
+    }
+    .b1-details{
+        text-align: center;
+        h1{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        h2{
+            margin-bottom: 30px;
+        }
+    }
+    .b1-alquiler{
+        justify-content: center;
+    }
+    .b1-lugar{
+        margin-bottom: 58px;
+        width: 35%;
+        margin: auto;
+    }
+    .b1-block{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b1-owner{
+        width: 100%;
+    }
+}
