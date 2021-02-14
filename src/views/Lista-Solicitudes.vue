@@ -193,6 +193,8 @@ export default {
       moment.updateLocale("en", {
         relativeTime: {
           past: "%s atrás",
+          MM: "%d meses",
+          M: "un mes",
           d: "un día",
           dd: "%d días",
           hh: "%d horas",
@@ -278,11 +280,10 @@ export default {
       //alquiler
     },
     removeRequest(request) {
-      axios
-        .delete("http://localhost:9112/api/request/" + request.id)
-        .then(() => {
-          location.reload();
-        });
+      axios.delete("http://localhost:9112/api/request/" + request.id);
+      // .then(() => {
+      //   location.reload();
+      // });
     },
     reactivateRequest(request) {
       axios.put("http://localhost:9112/api/request/reactivate/" + request.id);

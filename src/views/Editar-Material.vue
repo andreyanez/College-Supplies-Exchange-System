@@ -19,7 +19,7 @@
                   v-model="material.idEstado"
                   id="venta"
                   name="estado"
-                  value="4"
+                  value="3"
                   disabled
                 />
                 <label for="venta">Venta</label>
@@ -28,7 +28,7 @@
                   v-model="material.idEstado"
                   id="alquiler"
                   name="estado"
-                  value="3"
+                  value="4"
                   disabled
                 />
                 <label for="alquiler">Alquiler</label>

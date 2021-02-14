@@ -394,6 +394,15 @@ button{
 	.materiales-wrap{
 		padding-bottom: 20px;
 	}
+	.materiales-wrap.alquiler{
+		.material-item-inv{
+			flex-direction: column;
+			max-height: 370px;
+		}
+		.material-item-img{
+			max-height: 222px;
+		}
+	}
 	h1{
 		text-align: center;
 		font-size: 25px;
@@ -413,6 +422,7 @@ button{
 		display: flex;
 		width: 100%;
 		height: auto;
+		max-height: 204px;
 	}
 	.material-item-img{
 		height: auto
@@ -422,5 +432,12 @@ button{
 	}
 	.item-toggle{
 		width: 50%;
+	}
+	.materiales-input a{
+		margin-right: 0;	
+		width: 170px;
+	}
+	.materiales-input a.enAlquiler{
+		right: 217px;	
 	}
 }

@@ -227,7 +227,7 @@
     }
     .b3-item{
         height: auto;
-        min-height: auto;
+        min-height: 340px;
         padding-bottom: 24px;
         padding-left: 24px;
         padding-right: 24px;
@@ -266,12 +266,12 @@
         font-size: 8px;
     }
     .b3-botones{
-        bottom: 151px;
+        bottom: 200px;
         right: 0;
     }
     .b3-botones.transaccion{
         right: 33px;
-        bottom: 130px;
+        bottom: 200px;
     }
     .b3-botones.transaccion h4{
         // right: -50px;

@@ -237,7 +237,7 @@ export default {
     getMaterial() {
       return this.$store.getters.getMaterialById;
     },
-    ...mapState(["user", "materiales"])
+    ...mapState(["user"])
   }
 };
 </script>

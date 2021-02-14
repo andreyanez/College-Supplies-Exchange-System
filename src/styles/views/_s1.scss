@@ -538,4 +538,55 @@
     .b1-owner{
         width: 100%;
     }
+    .b1{
+        .Btn{
+            margin: auto;
+            margin-top: 20px;
+        }
+        .modal-info {
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            .back-enlace{
+                margin: auto;
+            }
+            h1{
+                text-align: center;
+            }
+        }
+        .modal-datos{
+            justify-content: center;
+        }
+        .modal-desc h2{
+            text-align: center;
+        }
+        .modal-container{
+            height: auto;
+            width: 94%;
+            padding: 0;
+            margin: auto;
+            .Btn{
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+        }
+        .modalBody{
+            flex-direction: column;
+        }
+        .modal-img{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            img{
+                width: 79%;
+            }
+        }
+        .modal-footer{
+            margin-top: 10px;
+        }
+        .modal-body{
+            padding-top: 30px;
+        }
+    }
 }
