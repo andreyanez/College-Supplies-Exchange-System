@@ -8,22 +8,14 @@ Luis Sanchéz - Tp2
 Arnold Alegría - Tp1
 ```
 
-## Project setup
+## Al abrirlo, deben hacer
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Para correr, usen el comando
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+Recuerden tener la parte de Back corriendo para que todo funcione.
