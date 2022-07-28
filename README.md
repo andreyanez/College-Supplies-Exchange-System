@@ -1,21 +1,13 @@
-# Simuniver - Sistema de Comercialización De Materiales Universitario
+# College Supplies Exchange System - SIMUNIVER
 
-## Hecho por
-```
-André Yáñez - Gerente
-Victor Alarcón - Tp3
-Luis Sanchéz - Tp2
-Arnold Alegría - Tp1
-```
+<p align="center">Exchange system where college students are able to find and add secondhand supplies for others to rent or buy</p>
 
-## Al abrirlo, deben hacer
-```
-npm install
-```
+<p align="center">
+  <img src="https://i.makeagif.com/media/7-28-2022/6dBLta.gif">
+</p>
 
-### Para correr, usen el comando
-```
-npm run serve
-```
+## How It's Made:
 
-Recuerden tener la parte de Back corriendo para que todo funcione.
+**Tech used:** HTML, Sass, JavaScript, Vue.js, ASP.NET
+
+
