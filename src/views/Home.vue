@@ -1,21 +1,22 @@
 <template>
-  <div>
-    <intro />
-  </div>
+	<div>
+		<intro />
+	</div>
 </template>
 
 <script>
 // @ is an alias to /src
-import intro from "@/components/intro.vue";
-import { authComputed } from "../store/helpers.js";
+import intro from '@/components/intro.vue';
+import { authComputed } from '../store/helpers.js';
 
 export default {
-  name: "Home",
-  components: {
-    intro
-  },
-  computed: {
-    ...authComputed
-  }
+	// eslint-disable-next-line vue/multi-word-component-names
+	name: 'Home',
+	components: {
+		intro,
+	},
+	computed: {
+		...authComputed,
+	},
 };
 </script>
