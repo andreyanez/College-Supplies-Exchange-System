@@ -15,7 +15,7 @@
 		"cloudinary-vue": "^1.0.0",
 		"core-js": "^3.6.5",
 		"lodash": "^4.17.19",
-		"moment": "^2.27.0",
+		"moment": "^2.29.4",
 		"nprogress": "^0.2.0",
 		"vue-axios": "^2.1.5",
 		"vue-fuse": "^2.2.1",
